@@ -73,11 +73,15 @@ $ npm run build
 
 ## Compress
 
+First, set version in `/chrome/manifest.prod.json`.
+
 ```bash
 # compress build folder to {manifest.name}.zip and crx
 $ npm run build
 $ npm run compress -- [options]
 ```
+
+...then publish it to Chrome Web Store from [this page](https://chrome.google.com/webstore/developer/dashboard).
 
 #### Options
 
