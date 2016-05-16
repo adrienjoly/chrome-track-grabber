@@ -1,10 +1,10 @@
 {
   "version": "0.0.0",
-  "name": "chrome-track-grabber",
+  "name": "Track grabber",
   "manifest_version": 2,
-  "description": "Example for react-chrome-extension-boilerplate",
+  "description": "Add Youtube tracks to your Spotify collection",
   "browser_action": {
-    "default_title": "Chrome Track Grabber",
+    "default_title": "Track Grabber",
     "default_popup": "popup.html"
   },
   "icons": {
