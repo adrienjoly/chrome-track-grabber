@@ -27,5 +27,5 @@
     "http://*/*",
     "https://*/*"
   ],
-  "content_security_policy": "default-src 'self'; script-src 'self' https://localhost:3000 'unsafe-eval'; connect-src https://localhost:3000 wss://localhost:3000; style-src * 'unsafe-inline' 'self' blob:; img-src 'self' data:;"
+  "content_security_policy": "default-src 'self' https://api.spotify.com; script-src 'self' https://localhost:3000 'unsafe-eval'; connect-src https://localhost:3000 wss://localhost:3000 https://api.spotify.com; style-src * 'unsafe-inline' 'self' blob:; img-src 'self' data:;"
 }
