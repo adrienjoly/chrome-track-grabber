@@ -1,3 +1,4 @@
+/*
 let windowId = 0;
 const CONTEXT_MENU_ID = 'example_context_menu';
 
@@ -28,7 +29,7 @@ chrome.contextMenus.create({
   title: 'React Chrome Extension Example',
   contexts: ['all'],
   documentUrlPatterns: [
-    'https://github.com/*'
+    'https://www.youtube.com/*'
   ]
 });
 
@@ -37,3 +38,4 @@ chrome.contextMenus.onClicked.addListener((event) => {
     popWindow('open');
   }
 });
+*/

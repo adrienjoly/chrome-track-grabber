@@ -1,3 +1,4 @@
+/*
 function isInjected(tabId) {
   return chrome.tabs.executeScriptAsync(tabId, {
     code: `var injected = window.reactExampleInjected;
@@ -29,14 +30,30 @@ function loadScript(name, tabId, cb) {
     });
   }
 }
+*/
+function showIfYoutube(tab){
+  //console.log('GRABBER', tab.url);
+  if (tab.url.indexOf('youtube') != -1) 
+    chrome.browserAction.setBadgeText({ text: 'coucou' });
+  else
+    chrome.browserAction.setBadgeText({ text: '' });
+}
 
-const arrowURLs = ['^https://github\\.com'];
+// called when the user switches to a tab
+chrome.tabs.onActivated.addListener(async function(activeInfo) {
+  chrome.tabs.getSelected(null, function(tab) {
+    //console.log('TAB', activeInfo.tabId, tab.url);
+    showIfYoutube(tab);
+  });
+});
 
+// called when a new tab was loaded
 chrome.tabs.onUpdated.addListener(async function(tabId, changeInfo, tab) {
-  if (changeInfo.status !== 'loading' || !tab.url.match(arrowURLs.join('|'))) return;
-
+  if (changeInfo.status !== 'complete' /*'loading'*/) return;
+  showIfYoutube(tab);
+  /*
   const result = await isInjected(tabId);
   if (chrome.runtime.lastError || result[0]) return;
-
   loadScript('inject', tabId, () => console.log('load inject bundle success!'));
+  */
 });
