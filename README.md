@@ -2,7 +2,7 @@
 
 Based on [React Chrome Extension Boilerplate](https://github.com/jhen0409/react-chrome-extension-boilerplate.git).
 
-=> Published on [Google Chrome Store](https://chrome.google.com/webstore/detail/react-chrome-extension-ex/negicmkgmegjckjoagfdlmbegmdbdpnc)
+=> Published on [Chrome Web Store](https://chrome.google.com/webstore/detail/react-chrome-extension-ex/negicmkgmegjckjoagfdlmbegmdbdpnc)
 
 ## Installation
 
@@ -30,14 +30,14 @@ This boilerplate uses `Webpack` and `react-transform`, and use `Redux`. You can 
 
 You can use [redux-devtools-extension](https://github.com/zalmoxisus/redux-devtools-extension) on development mode.
 
-## Build
+## Build (production release)
 
 ```bash
 # build files to './build'
 $ npm run build
 ```
 
-## Compress
+## Compress and publish to Chrome Web Store
 
 First, set version in `/chrome/manifest.prod.json`.
 
@@ -47,7 +47,7 @@ $ npm run build
 $ npm run compress -- [options]
 ```
 
-...then publish it to Chrome Web Store from [this page](https://chrome.google.com/webstore/developer/dashboard).
+...then upload `chrome-track-grabber.zip` to [Chrome Web Store Dashboard](https://chrome.google.com/webstore/developer/dashboard).
 
 #### Options
 

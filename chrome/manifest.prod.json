@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "name": "chrome-track-grabber",
   "manifest_version": 2,
   "description": "Example for react-chrome-extension-boilerplate",
