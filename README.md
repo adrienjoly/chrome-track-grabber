@@ -2,7 +2,7 @@
 
 Based on [React Chrome Extension Boilerplate](https://github.com/jhen0409/react-chrome-extension-boilerplate.git).
 
-=> Published on [Chrome Web Store](https://chrome.google.com/webstore/detail/react-chrome-extension-ex/negicmkgmegjckjoagfdlmbegmdbdpnc)
+=> Published on [Chrome Web Store](https://chrome.google.com/webstore/detail/chrome-track-grabber/negicmkgmegjckjoagfdlmbegmdbdpnc)
 
 ## Installation
 
