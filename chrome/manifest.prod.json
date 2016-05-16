@@ -1,15 +1,16 @@
 {
   "version": "0.0.1",
-  "name": "react-chrome-extension-example",
+  "name": "chrome-track-grabber",
   "manifest_version": 2,
   "description": "Example for react-chrome-extension-boilerplate",
   "browser_action": {
-    "default_title": "React Chrome Extension Example",
+    "default_title": "Chrome Track Grabber",
     "default_popup": "popup.html"
   },
   "icons": {
     "16": "img/icon-16.png",
     "48": "img/icon-48.png",
+    "96": "img/icon-96.png",
     "128": "img/icon-128.png"
   },
   "web_accessible_resources": [
