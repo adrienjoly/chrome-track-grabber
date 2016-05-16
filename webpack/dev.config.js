@@ -8,7 +8,7 @@ module.exports = {
   devtool: 'eval-cheap-module-source-map',
   devServer: { host, port, https: true },
   entry: {
-    todoapp: path.join(__dirname, '../chrome/extension/todoapp'),
+    app: path.join(__dirname, '../chrome/extension/app'),
     background: path.join(__dirname, '../chrome/extension/background'),
     inject: path.join(__dirname, '../chrome/extension/inject')
   },

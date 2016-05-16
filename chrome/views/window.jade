@@ -3,9 +3,9 @@ doctype html
 html
   head
     meta(charset='UTF-8')
-    title Redux TodoMVC Example (Window)
+    title Chrome Track Grabber (Window)
   body
     #root
     if env !== 'prod'
       script(src='chrome-extension://lmhkpmbekcpmknklioeibfkpmmfibljd/js/inject.bundle.js')
-    script(src=env == 'prod' ? '/js/todoapp.bundle.js' : 'https://localhost:3000/js/todoapp.bundle.js')
+    script(src=env == 'prod' ? '/js/app.bundle.js' : 'https://localhost:3000/js/app.bundle.js')
