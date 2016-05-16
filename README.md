@@ -2,7 +2,7 @@
 
 Based on [React Chrome Extension Boilerplate](https://github.com/jhen0409/react-chrome-extension-boilerplate.git).
 
-=> Published on [Chrome Web Store](https://chrome.google.com/webstore/detail/chrome-track-grabber/negicmkgmegjckjoagfdlmbegmdbdpnc)
+=> Published on [Chrome Web Store](https://chrome.google.com/webstore/detail/track-grabber/negicmkgmegjckjoagfdlmbegmdbdpnc)
 
 ## Installation
 
@@ -47,7 +47,7 @@ $ npm run build
 $ npm run compress -- [options]
 ```
 
-...then upload `chrome-track-grabber.zip` to [Chrome Web Store Dashboard](https://chrome.google.com/webstore/developer/dashboard).
+...then upload `Track grabber.zip` to [Chrome Web Store Dashboard](https://chrome.google.com/webstore/developer/dashboard).
 
 #### Options
 
